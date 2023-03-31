@@ -1,0 +1,190 @@
+﻿body {
+    background-image: url('arkaplan.jpg');
+    background-size: cover;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+  
+}
+
+
+header{
+
+    float: left;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    
+}
+
+
+    header nav {
+        float: left;
+        width: 608px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+     header nav ul {
+     list-style:none;
+}
+
+         header nav ul li{
+          float:left;
+          margin-left:70px;
+          color:#555;
+  }
+           .konular-wrap{
+                position:relative;
+            }
+                 .konular{
+                    display: none;
+                    position: absolute;
+                    width: 200px;
+                    height: auto;
+                    background-color: #fff;
+                    border: 1px solid #000;
+                }
+  .arama-wrap {
+   float: left;
+   width: 260px;
+   height: 45px;
+                }
+
+.txtArama {
+        float: left;
+        width: 190px;
+        padding: 10px;
+        height: 25px;
+        line-height: 60px;
+    }
+    .aramakutusu{
+        background-color:red;
+    }
+.btnArama{
+        float: left;
+        width: 49px;
+        height: 45px;
+        border-left: 1px solid #ff0000;
+       
+    }
+
+#menu-item:hover .konular {
+    display: block;
+    background-color: #fff;
+}
+
+.menu-subitem:hover .menu-subitem-item {
+    display:block;
+}
+
+.banner {
+    float: left;
+    margin-top: 45px;
+    width: 960px;
+    height: 360px;
+    background-color: #fff;
+    line-height: 360px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menukutu {
+    margin-top: 75px;
+    float: left;
+    margin-top: 45px;
+    width: 930px;
+    height: 330px;
+    background-color: #fff;
+    font-size: 25px;
+    padding: 10px 0 0 30px;
+    border-radius: 10px;
+}
+
+ .sol-taraf{
+        float: left;
+        width: 285px;
+        height: 300px;
+        margin-top: 45px;
+        background-color: #fff;
+    }
+
+.hizli-kayit {
+    float: left;
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+}
+ .ust{
+     float: left;
+     width:270px;
+     height:44px;
+     line-height:44px;
+     padding-left: 15px;
+     border-bottom: 1px solid #ccc;
+     color: #555;
+     background-color: #fff;
+ }
+.alt {
+   float: left;
+   width: 100%;
+   height: 220px;
+   margin-left:10px;
+   background-color: #fff;
+    }
+.telno{
+    margin-top: 15px;
+}
+.kisisay{
+    margin: 5px;
+}
+.tarih{
+    margin: 5px;
+}
+
+.içerik {
+    float: right;
+    width: 625px;
+    height: 260px;
+    padding: 20px;
+    margin-top: 45px;
+    background-color: #fff;
+}
+   .textbox{
+    width: 248px;
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+
+footer {
+    bottom: 0px;
+    left: 0px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 45px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    color: #000;
+    border-radius: 10px;
+    
+}
